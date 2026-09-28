@@ -8,15 +8,15 @@
         <h1>Community Gathering {{ $route.params.id }}</h1>
         <div class="meta-info">
           <div class="meta-item">
-            <span class="icon">📅</span>
+            <span class="icon">??</span>
             <span>October 15, 2026</span>
           </div>
           <div class="meta-item">
-            <span class="icon">📍</span>
+            <span class="icon">??</span>
             <span>Main Auditorium, City Center</span>
           </div>
           <div class="meta-item">
-            <span class="icon">👥</span>
+            <span class="icon">??</span>
             <span>500+ Attendees</span>
           </div>
         </div>
@@ -45,7 +45,6 @@
           <li><strong>01:00 PM</strong> - Closing Remarks</li>
         </ul>
       </div>
-
       <div class="sidebar">
         <div class="ticket-card">
           <h3>Registration</h3>
@@ -177,7 +176,7 @@
   padding: 2.5rem;
   border-radius: 16px;
   border: 1px solid #f0f0f0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.02);
   text-align: center;
   position: sticky;
   top: 100px;

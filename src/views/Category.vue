@@ -13,13 +13,13 @@
 
 <script setup>
 const categories = [
-  { name: 'Music & Concerts', icon: '🎵', count: 24 },
-  { name: 'Technology', icon: '💻', count: 18 },
-  { name: 'Art & Design', icon: '🎨', count: 12 },
-  { name: 'Business', icon: '💼', count: 30 },
-  { name: 'Health & Wellness', icon: '🧘‍♀️', count: 15 },
-  { name: 'Food & Drink', icon: '🍔', count: 22 },
-]
+  { name: 'Music & Concerts', icon: '??', count: 24 },
+  { name: 'Technology', icon: '??', count: 18 },
+  { name: 'Art & Design', icon: '??', count: 12 },
+  { name: 'Business', icon: '??', count: 30 },
+  { name: 'Health & Wellness', icon: '?????', count: 15 },
+  { name: 'Food & Drink', icon: '??', count: 22 },
+];
 </script>
 
 <style scoped>
@@ -39,9 +39,9 @@ const categories = [
   background: white;
   padding: 2rem;
   border-radius: 16px;
-  text-align: center;
   border: 1px solid #eee;
   transition: all 0.3s ease;
+  text-align: center;
   cursor: pointer;
 }
 

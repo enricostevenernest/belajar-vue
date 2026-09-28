@@ -18,7 +18,7 @@
 
     <section class="features">
       <div class="feature-card" v-for="i in 3" :key="i">
-        <div class="feature-icon">{{ ['🎯', '🌐', '🤝'][i-1] }}</div>
+        <div class="feature-icon">{{ ['?', '??', '??'][i-1] }}</div>
         <h3>{{ ['Curated Events', 'Global Reach', 'Community Driven'][i-1] }}</h3>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat.</p>
@@ -69,7 +69,7 @@
   background: #fdfdfd;
   border-radius: 24px;
   border: 1px solid #f0f0f0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.02);
 }
 
 .hero-content {
@@ -154,14 +154,14 @@
   padding: 2.5rem;
   border-radius: 16px;
   border: 1px solid #f0f0f0;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.02);
   transition: all 0.3s ease;
   text-align: center;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
   border-color: #e0e0e0;
 }
 
@@ -198,8 +198,7 @@
   margin-bottom: 2.5rem;
 }
 
-.tree,
-.tree ul {
+.tree, .tree ul {
   list-style: none;
   padding-left: 20px;
 }
@@ -244,23 +243,12 @@
 }
 
 @media (max-width: 768px) {
-  .hero-title {
-    font-size: 2.5rem;
-  }
-  .hero-actions {
-    flex-direction: column;
-    width: 100%;
-  }
+  .hero-title { font-size: 2.5rem; }
+  .hero-actions { flex-direction: column; width: 100%; }
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 </style>
